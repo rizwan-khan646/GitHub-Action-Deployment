@@ -13,10 +13,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v6.0.2
       
-    - name: Azure PowerShell Action
-      uses: Azure/powershell@v3
+    - name: PowerShell script
+      uses: Amadevus/pwsh-script@v2.0.3
       with:
-        inlineScript: ls
+        script: ls
           
         
         
