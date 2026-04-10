@@ -13,11 +13,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v6.0.2
       
-    - name: PowerShell script
-      uses: Amadevus/pwsh-script@v2.0.3
-      with:
-        script: |
-          ls
+    - name: list the files
+      run: ls
           
         
         
