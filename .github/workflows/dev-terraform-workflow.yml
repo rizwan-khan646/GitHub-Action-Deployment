@@ -1,0 +1,19 @@
+name: "my-first-GHproject"
+
+on: workflow_dispatch
+
+jobs:
+  terraform-init-plan:
+    name: Build the terraform resource code
+    runs-on: my-first-runner
+    permissions: 
+      checks: write
+      contents: read
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v6.0.2
+        
+        
+
+    
+ 
